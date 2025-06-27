@@ -1,24 +1,22 @@
 ## Minhas Contribuições
 
-**Nome:** Douglas Kereski
-**GitHub:** 
+**Nome:** Douglas Kereski  
+**GitHub:** [https://github.com/DouglasKereski](https://github.com/DouglasKereski)
 
 ### 🔧 Modificação 1: Prioridade de Tarefas
 
 **Lógica Implementada:**
 
-- A estrutura de cada tarefa foi modificada para incluir o campo `"prioridade"`, com valor definido pelo usuário (Alta, Média ou Baixa).
-- Durante o cadastro de uma nova tarefa, o sistema solicita a prioridade.
-- Se a entrada do usuário for inválida, a prioridade padrão "Baixa" é atribuída automaticamente.
-- A função de listagem de tarefas (`listar_tarefas`) foi atualizada para exibir a prioridade ao lado da descrição e status.
+- Adicionei o campo `"prioridade"` à estrutura das tarefas.
+- A função de adicionar pergunta ao usuário o nível de prioridade (Alta, Média ou Baixa).
+- Se o usuário digitar algo inválido, a prioridade é salva como "Baixa" por padrão.
+- A listagem agora mostra a prioridade de cada tarefa ao lado da descrição.
 
 **Como Testar:**
 
-1. Execute o programa.
-2. Escolha a opção `1. Adicionar Tarefa`.
-3. Digite uma descrição e depois uma prioridade válida ou inválida.
-4. Escolha a opção `2. Listar Tarefas` para ver se a prioridade foi exibida corretamente.
-5. Teste com "Alta", "Média", "Baixa" e com valores inválidos (ex: "urgente").
+1. Adicione uma nova tarefa.
+2. Digite diferentes níveis de prioridade.
+3. Liste as tarefas e verifique se a prioridade está aparecendo corretamente.
 
 ---
 
@@ -26,19 +24,16 @@
 
 **Lógica Implementada:**
 
-- Foi adicionada ao menu principal a opção `5. Editar Descrição da Tarefa`.
-- O sistema solicita o número da tarefa a ser editada.
-- A descrição atual é exibida antes de solicitar a nova descrição.
-- Se o usuário inserir uma nova descrição válida, ela é atualizada.
-- O sistema fornece mensagens de sucesso ou erro conforme o caso.
+- Adicionei uma nova opção no menu (opção 5).
+- O usuário escolhe o número da tarefa que deseja editar.
+- A descrição atual é exibida, e o sistema pede a nova descrição.
+- A nova descrição é salva e confirmada com uma mensagem.
 
 **Como Testar:**
 
-1. Execute o programa.
-2. Adicione uma ou mais tarefas.
-3. Escolha a opção `5. Editar Descrição da Tarefa`.
-4. Digite o número da tarefa desejada.
-5. Insira a nova descrição e verifique se ela foi atualizada na listagem.
-6. Teste também o caso em que o índice é inválido ou a nova descrição está vazia.
+1. Adicione pelo menos uma tarefa.
+2. Escolha a opção 5 no menu.
+3. Insira o número da tarefa e a nova descrição.
+4. Liste as tarefas novamente para confirmar a mudança.
 
 
